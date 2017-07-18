@@ -1,0 +1,1025 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: "kaiti";
+}
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header {
+  width: 100%;
+  height: 183px;
+  background: black ;
+  line-height: 2px;
+  position: relative ;
+}
+.header .header-top {
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+  height: 40px;
+  background: dimgray;
+  position: absolute;
+}
+.header .header-top .header-left {
+  width: 245px;
+  height: 40px;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  float: left;
+  margin-left: 77px;
+}
+.header .header-top .header-left img {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.header .header-top .header-left p {
+  float: right;
+  margin-right: 26px;
+}
+.header .header-top .header-middle {
+  width: 150px;
+  height: 40px;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  float: left;
+}
+.header .header-top .header-middle img {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.header .header-top .header-middle p {
+  float: right;
+  margin-right: 26px;
+}
+.header .header-top .header-right {
+  list-style: none;
+  width: 515px;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  margin: 0;
+  line-height: 36px;
+  margin-left: 266px;
+  float: left;
+}
+.header .header-top .header-right li {
+  float: left;
+  width: 64px;
+  height: 40px;
+  margin-left: 17px;
+  text-align: center;
+}
+.header .header-top .header-right span {
+  width: 1px;
+  height: 32px;
+  display: block;
+  float: left;
+  background: darkgray;
+  margin-left: 24px;
+  margin-top: 4px;
+}
+.header .header-bottom {
+  width: 100%;
+  min-height: 140px;
+  float: left;
+  margin-top: 42px;
+  background-color: #000;
+}
+.header .header-bottom .hbottom-left {
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 41px;
+}
+.header .header-bottom .hbottom-left img {
+  display: inline-block;
+  margin-top: -20px;
+  margin-left: 52px;
+}
+.header .header-bottom .hbottom-right {
+  list-style: none;
+  float: right;
+  width: 800px;
+  margin: 0;
+  line-height: 115px;
+  margin-right: 45px;
+}
+.header .header-bottom .hbottom-right li {
+  float: left;
+  width: 91px;
+  height: 40px;
+  margin-left: 5px;
+  text-align: center;
+}
+.header .header-bottom .hbottom-right li select option {
+  background: black;
+  border: 1px solid gray;
+}
+.clear {
+  clear: both;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  float: left;
+  position: relative;
+  background: url(../../img/car15.jpg) no-repeat;
+}
+.banner .banner-leftImg {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 169px;
+}
+.banner .banner-rightImg {
+  right: 0;
+  position: absolute;
+  top: 200px;
+}
+.banner .banner-left {
+  height: 200px;
+  width: 271px;
+  margin-left: 180px ;
+  margin-top: 137px;
+  z-index: 99;
+}
+.banner .banner-left h1 {
+  font-size: 24px;
+  margin: -26px 0 -26px 0;
+}
+.banner .banner-left .p1 {
+  border-left: 1px solid rgba(255, 87, 34, 0.71);
+  border-right: 1px solid rgba(255, 87, 34, 0.71);
+  text-indent: 5px;
+}
+.banner .banner-left .p2 i {
+  background: black;
+  display: inline-block;
+  width: 80px;
+  padding-left: 15px;
+}
+.banner .banner-left span {
+  width: 148px;
+  height: 37px;
+  border-radius: 50px;
+  display: block;
+  text-indent: 20px;
+  float: left;
+  line-height: 35px;
+  background: rgba(255, 87, 34, 0.71);
+  font-size: 12px ;
+}
+.banner .banner-left span .span2 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+  display: block;
+  float: right;
+  margin-top: 2px;
+  margin-right: 3px ;
+  line-height: 32px;
+  background: white;
+  color: black;
+  text-indent: 10px;
+  font-size: 15px;
+}
+.vehicle {
+  width: 100%;
+  background: rgba(95, 158, 160, 0.04);
+  position: relative;
+  height: 169px;
+}
+.vehicle .vehicle-top {
+  width: 900px;
+  height: 270px;
+  margin: 0 auto ;
+  position: absolute ;
+  top: -111px;
+  left: 222px;
+}
+.vehicle .vehicle-top h1 {
+  text-align: center;
+  font-size: 20px ;
+  color: #3F51B5;
+  margin: 0;
+  border-left: 2px solid #673ab7;
+  border-right: 2px solid #673ab7;
+  text-indent: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  margin-left: 331px;
+  background: rgba(255, 255, 255, 0.32);
+}
+.vehicle .vehicle-top .vehicle-top1 {
+  width: 900px;
+  height: 270px;
+  background: white;
+  text-shadow: 10px 10px 10px black;
+  box-shadow: 0px 17px 78px black;
+  margin-top: 40px ;
+  position: relative;
+  left: 82px;
+}
+.vehicle .vehicle-top .vehicle-top1 p {
+  text-align: center;
+  color: red;
+}
+.vehicle .vehicle-top .vehicle-top1 ul {
+  width: 687px;
+  height: 25px;
+  margin-left: 100px ;
+  cursor: pointer;
+}
+.vehicle .vehicle-top .vehicle-top1 ul li {
+  width: 80px;
+  float: left;
+  margin-left: 34px ;
+  color: darkgray;
+  text-align: center;
+  cursor: pointer;
+}
+.vehicle .vehicle-top .vehicle-top1 ul li img {
+  width: 100%;
+}
+.vehicle .vehicle-top .vehicle-top1 .grayCar3 li {
+  background: white;
+  width: 80px;
+  height: 7px;
+  margin-left: 34px;
+}
+.vehicle .vehicle-top .vehicle-top1 .grayCar3 li.active {
+  background: url(../../img/arrow03Hover.png);
+  background-position-x: -8px;
+}
+.vehicle .vehicle-top .vehicle-top1 .price {
+  width: 340px;
+  height: 35px;
+  border: 1px solid red;
+  position: absolute ;
+  right: 0px;
+  color: black;
+  float: right;
+  top: 128px;
+}
+.vehicle .vehicle-top .vehicle-top1 .price #range {
+  width: 230px;
+  height: 10px;
+  background: gray;
+  border-radius: 20px;
+  margin-left: 102px;
+  position: relative;
+  cursor: pointer;
+}
+.vehicle .vehicle-top .vehicle-top1 .price #range #rangeLeft {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  top: -6px;
+  background: url(../../img/priceLeft.png);
+}
+.vehicle .vehicle-top .vehicle-top1 .price #range #rangeRight {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  left: 210px;
+  top: -6px;
+  background: url(../../img/priceLeft.png);
+}
+.vehicle .vehicle-top .vehicle-top1 .seletct {
+  width: 522px;
+  height: 150px;
+  float: left;
+  margin-left: 28px;
+  margin-top: 15px;
+}
+.vehicle .vehicle-top .vehicle-top1 .seletct select {
+  height: 35px;
+  width: 160px;
+  text-indent: 15px;
+  margin-bottom: 27px ;
+  border: 1px solid darkgray;
+  outline: none;
+}
+.vehicle .vehicle-top .vehicle-top1 .adv {
+  position: absolute ;
+  bottom: 32px;
+  right: 271px;
+  display: block;
+  color: red;
+  border-bottom: 1px solid red;
+}
+.vehicle .vehicle-top .vehicle-top1 .Search {
+  width: 187px;
+  height: 37px;
+  border-radius: 50px;
+  text-indent: 20px;
+  line-height: 35px;
+  background: gray;
+  font-size: 14px;
+  position: absolute ;
+  bottom: 26px;
+  right: 63px;
+}
+.vehicle .vehicle-top .vehicle-top1 .Search span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: block;
+  float: right;
+  margin-top: 4px;
+  margin-right: 5px;
+  line-height: 32px;
+  background: rgba(255, 87, 34, 0.71);
+  text-indent: 13px;
+  font-size: 15px;
+  color: white;
+}
+.featured {
+  width: 100%;
+  height: 571px;
+  background: rgba(53, 107, 134, 0.65);
+}
+.featured .featured-top {
+  width: 100px;
+  height: 20px;
+  border-left: 2px solid orangered ;
+}
+.featured .ftop {
+  text-align: center;
+  border-left: 2px solid orangered ;
+  border-right: 2px solid orangered ;
+  text-indent: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  margin-left: 727px;
+  margin-top: 118px;
+}
+.featured .carChoose {
+  width: 1100px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 200px;
+}
+.featured .carChoose .carPrice {
+  width: 1100px;
+  height: 300px;
+  position: absolute;
+}
+.featured .carChoose .carPrice li {
+  width: 243px;
+  height: 100px;
+  float: left;
+  margin-left: 17px;
+  color: #653131;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 0 5px;
+}
+.featured .carChoose .carPrice li img {
+  width: 100%;
+  height: 100%;
+}
+.featured .carChoose .carPrice li span {
+  background: rgba(255, 87, 34, 0.79);
+  display: inline-block;
+  width: 80px;
+  color: white;
+  padding-left: 15px;
+}
+.featured .carChoose .carPrice li p {
+  color: white;
+  font-size: 12px;
+}
+.featured .carChoose .carPrice li .arrow {
+  width: 214px;
+  height: 7px;
+}
+.featured .btn {
+  width: 145px;
+  height: 37px;
+  border: 1px solid rgba(45, 21, 21, 0.98);
+  border-radius: 30px ;
+  margin: 35px auto;
+  cursor: pointer;
+  position: relative;
+}
+.featured .btn .btn-left {
+  float: left;
+  transform: rotate(180deg);
+}
+.featured .btn .btn-right {
+  float: right;
+}
+.welcome {
+  width: 100%;
+  height: 450px;
+  background: #d8572f;
+}
+.welcome .welcome-left {
+  width: 200px;
+  height: 450px;
+  float: left;
+}
+.welcome .welcome-left img {
+  height: 100%;
+}
+.welcome .welcome-right {
+  float: left;
+  margin-left: 27px;
+}
+.welcome .welcome-right p {
+  display: block;
+  width: 544px;
+  height: 320px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 43px;
+  font-size: 13px;
+  line-height: 24px;
+}
+.welcome .welcome-right p .leader {
+  border-left: 3px solid rgba(255, 255, 255, 0.62);
+  border-right: 3px solid rgba(255, 255, 255, 0.62);
+  text-indent: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  margin-bottom: 11px;
+}
+.welcome .welcome-right p .check {
+  margin-top: 18px ;
+  display: inline-block;
+}
+.welcome .welcome-right .welcome-leftImg {
+  width: 340px;
+  height: 320px;
+  float: left;
+  margin-left: 22px;
+  margin-top: 43px;
+  position: relative;
+}
+.welcome .welcome-right .welcome-leftImg .imgmiddle {
+  position: absolute;
+  top: 131px;
+  left: 131px;
+}
+.welcome .welcome-right .welcome-leftImg li {
+  width: 150px;
+  height: 150px;
+  float: left;
+  background: white ;
+  margin: 4px;
+}
+.welcome .welcome-right .welcome-leftImg li .imghover0 {
+  width: 64px;
+  display: inline-block;
+  margin-top: 32px;
+  margin-left: 44px;
+  height: 64px;
+  border-radius: 64px;
+  background: white;
+  border: 1px solid lightgray;
+}
+.welcome .welcome-right .welcome-leftImg li .imghover0:hover {
+  background: #f76d2b;
+}
+.welcome .welcome-right .welcome-leftImg li .imghover0 img {
+  display: inline-block;
+  margin: 14px 10px;
+}
+.welcome .welcome-right .welcome-leftImg li .imghover {
+  margin-top: 16px;
+  margin-left: 34px;
+}
+.auto {
+  width: 100%;
+  position: relative;
+  height: 500px;
+}
+.auto .know {
+  position: absolute;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  text-indent: 627px;
+}
+.auto .know span {
+  text-align: center;
+  border-left: 2px solid orangered;
+  border-right: 2px solid orangered;
+  text-indent: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  margin-left: 635px;
+  color: black;
+}
+.auto .carKnowledge {
+  width: 1100px;
+  position: absolute;
+  left: 246px;
+  top: 90px;
+}
+.auto .carKnowledge li {
+  width: 315px;
+  height: 100px;
+  float: left;
+  margin-left: 17px;
+  color: #777070;
+}
+.auto .carKnowledge li img {
+  width: 100%;
+  height: 100%;
+}
+.auto .carKnowledge li .span {
+  font-size: 12px;
+  border: none;
+}
+.auto .carKnowledge li .span .red1 {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url(../../img/span1.png) no-repeat;
+}
+.auto .carKnowledge li .span .red2 {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url(../../img/span2.png) no-repeat;
+}
+.auto .carKnowledge li .span .red3 {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url(../../img/span2.png) no-repeat;
+}
+.auto .carKnowledge li p {
+  color: black;
+  border-left: 3px solid orangered;
+  text-indent: 5px;
+}
+.auto .carKnowledge li .readMore {
+  width: 102px;
+  height: 30px;
+  border-radius: 35px;
+  border: 1px solid gray;
+  display: inline-block;
+  text-indent: 32px;
+  line-height: 35px;
+  font-size: 12px;
+  background: white;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+.auto .carKnowledge li .readMore .readMore2 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  display: inline-block;
+  float: right;
+  margin-top: 3px;
+  margin-right: 3px;
+  line-height: 24px;
+  background: gray;
+  color: white;
+  text-indent: 10px;
+  font-size: 15px;
+}
+.question {
+  width: 100%;
+  height: 284px;
+  background: lightgray;
+  box-shadow: 5px 5px 5px #441414 inset;
+  position: relative;
+}
+.question .lookSell {
+  width: 950px;
+  height: 200px;
+  margin: 0 auto;
+}
+.question .lookSell li {
+  width: 450px;
+  height: 200px;
+  background: #f76d2b ;
+  float: left;
+  margin-left: 25px;
+  margin-top: 38px;
+}
+.question .lookSell li .imgLeft {
+  float: left;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+.question .lookSell li .imgmiddle {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-left: 28px;
+  margin-top: 56px;
+}
+.question .lookSell li .imgmiddle img {
+  width: 288px;
+  display: inline-block;
+}
+.question .lookSell li .imgRight {
+  float: right;
+  height: 200px;
+  width: 70px;
+  background: rgba(255, 255, 255, 0.29);
+}
+.question .lookSell li .imgRight img {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 22px;
+  margin-top: 87px;
+}
+.question .call {
+  color: #231a1a;
+  position: absolute;
+  left: 689px;
+  bottom: -4px;
+}
+.offer {
+  width: 100%;
+  height: 821px;
+}
+.offer .offer-top {
+  width: 100%;
+  height: 175px;
+}
+.offer .offer-top .know {
+  position: absolute;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  text-indent: 627px;
+  line-height: 26px;
+}
+.offer .offer-top .know span {
+  text-align: center;
+  border-left: 2px solid orangered;
+  border-right: 2px solid orangered;
+  text-indent: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  margin-left: 635px;
+  color: black;
+}
+.offer .offer-left {
+  width: 208px;
+  height: 400px;
+  float: left;
+  margin-left: 171px;
+  cursor: pointer;
+}
+.offer .offer-left li {
+  height: 48px;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  position: relative;
+  line-height: 48px;
+  color: black;
+}
+.offer .offer-left li span {
+  border-left: 2px solid orangered;
+  height: 25px;
+  padding-right: 15px;
+  display: inline-block;
+  position: absolute;
+  top: 13px;
+  line-height: 25px;
+  text-indent: 23px;
+}
+.offer .offer-right {
+  width: 700px;
+  height: 605px;
+  float: right;
+  margin-right: 251px;
+}
+.offer .offer-right li {
+  width: 200px;
+  height: 100px;
+  float: left;
+  margin-left: 17px;
+  color: #653131;
+  padding: 0 5px;
+}
+.offer .offer-right li img {
+  width: 100%;
+  height: 100%;
+}
+.offer .offer-right li span {
+  background: rgba(255, 87, 34, 0.79);
+  display: inline-block;
+  width: 80px;
+  color: white;
+  padding-left: 15px;
+}
+.offer .offer-right li p {
+  color: black;
+  font-size: 18px;
+}
+.offer .offer-right li .arrow {
+  width: 214px;
+  height: 7px;
+}
+.advantage {
+  width: 100%;
+  height: 300px;
+  background: #d8572f;
+}
+.advantage .advantage-left {
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+.advantage .advantage-left img {
+  height: 100%;
+  width: 300px;
+}
+.advantage .advantage-right {
+  float: left;
+  margin-left: 27px;
+}
+.advantage .advantage-right .advantage-leftImg {
+  width: 680px;
+  height: 320px;
+  float: left;
+  margin-left: 224px;
+  margin-top: 69px;
+  position: relative;
+}
+.advantage .advantage-right .advantage-leftImg .imgmiddle {
+  position: absolute;
+  top: 126px;
+  left: 127px;
+}
+.advantage .advantage-right .advantage-leftImg li {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background: url(../../img/ad0.png) no-repeat;
+  margin-left: 10px;
+}
+.advantage .advantage-right .advantage-leftImg li img {
+  width: 55px;
+  display: inline-block;
+  margin-top: 22px;
+  margin-left: 24px;
+}
+.advantage .advantage-right .advantage-leftImg li .imghover0 {
+  height: 55px;
+}
+.advantage .advantage-right .advantage-leftImg li .imghover {
+  margin-top: 35px;
+  width: 40px;
+  height: 18px;
+  display: inline-block;
+}
+.advantage .advantage-right .advantage-leftImg li span {
+  display: inline-block;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  text-indent: 10px;
+  padding-right: 10px;
+}
+.signUp {
+  width: 100%;
+  height: 200px;
+  background: #333333;
+  position: relative;
+}
+.signUp .signUp-left {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  left: 320px;
+  text-align: center;
+}
+.signUp .signUp-left p {
+  text-align: center;
+  text-indent: 10px;
+  display: inline-block;
+  padding-top: 38px;
+}
+.signUp .signUp-left p span {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  text-indent: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+.signUp .signUp-right {
+  width: 600px;
+  height: 150px;
+  position: absolute;
+  right: 320px;
+  position: relative;
+  right: -598px;
+}
+.signUp .signUp-right p {
+  text-align: center;
+  position: absolute;
+  top: 14px;
+  left: 159px;
+}
+.signUp .signUp-right input {
+  border-radius: 30px;
+  height: 30px;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid gray;
+  text-indent: 16px;
+  color: white;
+  outline: none;
+}
+.signUp .signUp-right .email {
+  left: 197px;
+}
+.signUp .signUp-right img {
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  right: 177px;
+}
+.donald {
+  width: 100%;
+  height: 500px;
+}
+.donald .donald-left {
+  float: left;
+  margin-left: 177px;
+  margin-top: 50px;
+  width: 200px;
+  height: 150px;
+}
+.donald .donald-left img {
+  float: right;
+  margin-top: 18px;
+}
+.donald .donald-right {
+  float: right;
+  width: 881px;
+  height: 150px;
+  color: gray;
+  text-align: center;
+  margin-right: 205px;
+  margin-top: 50px;
+}
+.donald .donald-right span {
+  color: black;
+  display: block;
+}
+.donald .donald-right img {
+  display: inline-block;
+}
+.donald .donald-right p {
+  display: inline-block;
+  margin-top: 48px;
+  line-height: 23px;
+}
+.donald .donald-right .btn {
+  width: 140px;
+  height: 41px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-left: 366px;
+}
+.donald .donald-right .btn .btn-left {
+  float: left;
+  margin-left: 2px;
+  margin-top: 2px;
+  transform: rotate(180deg);
+}
+.donald .donald-right .btn .btn-right {
+  float: right;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+.orange {
+  width: 100%;
+  height: 150px;
+  background: #f76d2b;
+  text-align: center;
+  box-shadow: 5px 5px 12px #6d1818 inset;
+}
+.orange p {
+  font-size: 20px;
+  margin-left: 240px;
+}
+.orange span {
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid white;
+  line-height: 147px;
+}
+.info {
+  width: 100%;
+  height: 400px;
+  background: #333333;
+}
+.info .info-left {
+  width: 250px;
+  height: 417px;
+  background: #272727;
+  float: left;
+  margin-left: 180px;
+  margin-top: -180px;
+  box-shadow: 11px 42px 78px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.info .info-left li {
+  width: 250px;
+  height: 160px;
+  font-size: 12px;
+}
+.info .info-left li P {
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+  width: 108px;
+  margin-left: 70px;
+  text-align: center;
+  color: #ffa822;
+}
+.info .info-left .more {
+  width: 86px;
+  height: 30px;
+  border-radius: 35px;
+  border: 1px solid gray;
+  text-indent: 22px;
+  line-height: 35px;
+  font-size: 12px;
+  margin: 20px 78px;
+  cursor: pointer;
+}
+.info .info-left .more span {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  display: inline-block;
+  float: right;
+  margin-top: 3px;
+  margin-right: 3px;
+  line-height: 24px;
+  background: gray;
+  color: white;
+  text-indent: 10px;
+  font-size: 15px;
+}
+.info .info-right {
+  width: 880px;
+  height: 400px;
+  float: left;
+  margin-left: 45px;
+}
+.info .info-right li {
+  width: 264px;
+  height: 98px;
+  float: left;
+  margin-right: 26px;
+}
+.info .info-right li p {
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+  width: 105px;
+  padding-left: 5px;
+  text-align: center;
+  color: #ffa822;
+  margin-top: 54px;
+  margin-left: 14px;
+}
+.info .info-right li img {
+  display: inline-block;
+  float: left;
+}
+.info .info-right li span {
+  float: right;
+}
+.info .info-right li .speed {
+  padding-right: 38px;
+  display: inline-block;
+  line-height: 41px;
+}
+.info .info-right li .twitter-left {
+  height: 94px;
+  width: 229px;
+  display: inline-block;
+}
